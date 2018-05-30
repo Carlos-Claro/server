@@ -1,0 +1,9 @@
+zone "{URL}"{ABRE}
+ type slave;
+         masters {ABRE}{IP};{FECHA};
+        file "/etc/bind/my/{URL}.direto";
+        allow-transfer {ABRE}
+                {IP};
+        {FECHA};
+{FECHA};
+

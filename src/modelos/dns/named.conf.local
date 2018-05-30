@@ -1,0 +1,5 @@
+zone "{URL}"{ABRE}
+	type master; 
+	file "/etc/bind/portais/{URL}.direto";
+{FECHA};
+

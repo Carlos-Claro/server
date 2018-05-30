@@ -1,0 +1,17 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA   dns.{URL} root.{URL}. (
+		      {DATA}      	; Serial
+			   3600		; Refresh
+			  86400		; Retry
+			  86400		; Expire
+			   600 )	; Negative Cache TTL
+;
+@       IN      NS      {URL}.
+@	IN      A       {IP}
+dns	IN	A	{IP}
+dns1	IN	A	{IPA}
+{IP}	IN	NS	dns.{URL}
+{IPA}	IN	NS	dns1.{URL}
