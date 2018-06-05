@@ -10,9 +10,11 @@ $TTL	604800
 			   600 )	; Negative Cache TTL
 ;
 @	IN	NS	{URL}.
+@	IN	NS	www.{URL}.
 @	IN	NS	dns.{URL}.
 @	IN	NS	dns1.{URL}.
 dns1	IN	A	{IPA}
 @	IN	A	{IPA}
 @	IN	A	{IP}
 dns	IN	A	{IP}
+www	IN	A	{IP}

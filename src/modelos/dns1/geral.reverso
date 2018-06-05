@@ -1,1 +1,2 @@
-{IP}     IN     PTR    {URL}. 
+{IP}     IN     PTR    {URL}.
+{IP}     IN     PTR    www.{URL}. 
